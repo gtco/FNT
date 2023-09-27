@@ -61,7 +61,7 @@ namespace FNT
                     {
                         var src = by * width + bx;
                         var dest = (by + y) * TextureSize + bx + x;
-                        colors[dest] = new Color(255, 255, 255, bitmap[src]);
+                        colors[dest] = Color.FromNonPremultiplied(255, 255, 255, bitmap[src]);
                     }
                 }
 
