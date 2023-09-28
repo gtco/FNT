@@ -34,10 +34,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\FNA.dll</HintPath>
     </Reference>
-    <Reference Include="SharpFont, Version=3.1.0.200, Culture=neutral, PublicKeyToken=48add4c483071cdf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\SharpFont.dll</HintPath>
-    </Reference>
+    <PackageReference Include="SharpFont" Version="4.0.1" /> 
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
